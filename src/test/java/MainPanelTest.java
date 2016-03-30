@@ -37,11 +37,15 @@ public class MainPanelTest {
         assertEquals(mp.convertToInt(num), num);
     }
 
-    // How do I test this? Measure in time it takes to run the code?
-    // An unnecessary loop of 10,000 iterations every time we run continuously would
-    // figure to have a big impact on the performance of the code.
+    // Since in this method I took out the for loop that modified _r, let's check that it is still the same
+    // after this method is complete
     @Test
     public void testRunContinuous() {
+        int startingValue = mp._r;
+        mp.runContinuous();
 
+        assertEquals(startingValue, mp._r);
     }
+
+
 }

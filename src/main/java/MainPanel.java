@@ -127,7 +127,6 @@ public class MainPanel extends JPanel {
 
     }
 
-    // Two for loops?
     private void displayIteration(boolean[][] nextIter) {
         System.out.println("\tDisplaying...");
         for (int j = 0; j < _size; j++) {
@@ -143,7 +142,6 @@ public class MainPanel extends JPanel {
      * state will be for the next iteration.
      */
 
-    // Two for loops?
     private void calculateNextIteration() {
         System.out.println("\tCalculating..");
         boolean[][] nextIter = new boolean[_size][_size];
