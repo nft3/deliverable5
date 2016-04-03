@@ -37,15 +37,4 @@ public class MainPanelTest {
         assertEquals(mp.convertToInt(num), num);
     }
 
-    // Since in this method I took out the for loop that modified _r, let's check that it is still the same
-    // after this method is complete
-    @Test
-    public void testRunContinuous() {
-        int startingValue = mp._r;
-        mp.runContinuous();
-
-        assertEquals(startingValue, mp._r);
-    }
-
-
 }
