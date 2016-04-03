@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="337f2def-9970-4433-9eef-642447caee75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MainPanel.class" afterPath="$PROJECT_DIR$/target/classes/MainPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/MainPanelTest.class" afterPath="$PROJECT_DIR$/target/test-classes/MainPanelTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MainPanel.java" afterPath="$PROJECT_DIR$/src/main/java/MainPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MainPanelTest.java" afterPath="$PROJECT_DIR$/src/test/java/MainPanelTest.java" />
     </list>
     <ignored path="deliverable.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/MainPanelTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.9438944">
-              <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#231#232#0" expanded="true" />
@@ -210,7 +209,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CellTest.testToStringNotAliveNotNull">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration default="false" name="CellTest.testToStringAlive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="deliverable" />
@@ -593,6 +592,13 @@
       <option name="number" value="Default" />
       <updated>1459367641944</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added even more tests">
+      <created>1459374121024</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1459374121024</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -668,8 +674,20 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added even more tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added even more tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -744,7 +762,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/MainPanelTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9438944">
-          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#231#232#0" expanded="true" />
